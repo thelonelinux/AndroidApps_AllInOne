@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Login Register</string>
+    <string name="logout">Logout</string>
+    <string name="username">Username</string>
+    <string name="age">Age</string>
+    <string name="name">Name</string>
+    <string name="Username">username</string>
+    <string name="login">Login</string>
+    <string name="register_here">Register Here</string>
+    <string name="password">password</string>
+    <string name="Name">Name</string>
+    <string name="Age">Age</string>
+    <string name="uername">username</string>
+    <string name="Password">password</string>
+    <string name="register">Register</string>
+</resources>

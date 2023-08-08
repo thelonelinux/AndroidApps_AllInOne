@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#85c1ef"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_marginStart="50dp"
+        android:textSize="25dp"
+        android:paddingStart="75dp"
+        android:layout_height="40dp"
+        android:id="@+id/EditText1"
+        android:layout_marginTop="200dp"
+        android:text="Count"
+        android:background="#ffffff"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="reset"
+        android:id="@+id/button1"
+        android:background="#009688"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:background="#009862"
+            android:id="@+id/button2"
+            android:text="increment" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:background="#5236"
+            android:id="@+id/button3"
+            android:text="decrement" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
