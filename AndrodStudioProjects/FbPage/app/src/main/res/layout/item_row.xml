@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="-5dp"
+            android:src="@drawable/vk" />
+
+
+        <TextView
+            android:textSize="24sp"
+            android:id="@+id/studentName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="10dp"
+            android:text="Name" />
+
+
+        <!--<TextView-->
+            <!--android:textSize="24sp"-->
+            <!--android:id="@+id/studentNumber"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:text="Contact" />-->
+
+        <!--<TextView-->
+            <!--android:textSize="24sp"-->
+            <!--android:id="@+id/studentLocation"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_marginStart="20dp"-->
+            <!--android:text="Location" />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/idBtn"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="0dp"-->
+        <!--android:text="Button" />-->
+
+
+
+    <!--<TextView-->
+        <!--android:textSize="24sp"-->
+        <!--android:id="@+id/studentBatch"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Batch" />-->
+
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="-5dp"
+            android:src="@drawable/vk" />
+
+
+        <TextView
+            android:textSize="24sp"
+            android:id="@+id/studentName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="10dp"
+            android:text="Name" />
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="578dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/bk" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="136dp"
+            android:layout_height="65dp"
+            android:src="@drawable/like"/>
+
+        <ImageView
+            android:layout_width="136dp"
+            android:layout_height="65dp"
+            android:src="@drawable/images" />
+
+
+        <ImageView
+            android:layout_width="136dp"
+            android:layout_height="65dp"
+            android:src="@drawable/download"/>
+
+
+    </LinearLayout>
+</LinearLayout>
