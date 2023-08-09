@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="First Year" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="IT" />
+        <item
+            android:id="@+id/coe"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="COE" />
+        <item
+            android:id="@+id/it"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="EEE" />
+        <item
+            android:id="@+id/se"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="SE" />
+        <item
+            android:id="@+id/mce"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="MCE" />
+        <item
+            android:id="@+id/ece"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="ECE" />
+        <item
+            android:id="@+id/pie"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="PIE" />
+        <item
+            android:id="@+id/me"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="ME" />
+        <item
+            android:id="@+id/ce"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="CE" />
+        <item
+            android:id="@+id/ice"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="ICE" />
+        <item
+            android:id="@+id/mam"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="MAM" />
+        <item
+            android:id="@+id/bt"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="BT" />
+        <item
+            android:id="@+id/chem"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="EE" />
+        <item
+            android:id="@+id/mettal"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="EEE" />
+        <item
+            android:id="@+id/seis"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="EP" />
+        <item
+            android:id="@+id/che"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="MET" />
+        <item
+            android:id="@+id/autom"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="CHEM" />
+    </group>
+</menu>
